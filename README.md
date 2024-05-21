@@ -9,8 +9,6 @@ Emotion detection in text data involves identifying the emotions expressed in te
 
 The aim of this project is to develop a model that uses NLP techniques to accurately detect emotions in text data. The model can be used for sentiment analysis, customer feedback analysis, and social media monitoring. The model is trained on a dataset of text data that has been labeled with the corresponding emotions expressed in it.
 
-# Dataset
-The <a src="./data/">dataset</a> used for this project contains text data labeled with one of eight emotions: anger, disgust, fear, joy, neutral, sadness, shame and surprise. The dataset contains a total of 34795 rows.
 
 # Methodology
 - The methodology used for this project involves the following steps:
@@ -21,20 +19,4 @@ The <a src="./data/">dataset</a> used for this project contains text data labele
 # Results
 The Logistic Regression achieved an accuracy of 62% on the data.
 
-# Installation
-1. Clone the repository to your local machine:
-```
-git clone https://github.com/SannketNikam/Chatbot.git
-```
 
-2. Install the 'requirements.txt':
-```
-pip install -r requirements.txt
-```
-
-3. To run this project :
-```
-streamlit run app.py
-```
-
-4. It'll automatically open the Streamlit app in your default browser.
